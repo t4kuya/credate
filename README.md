@@ -4,3 +4,7 @@ credate is a improved version of wc
 # Table of Contents
 - [Description](#Description)
 - [Usage](#Usage)
+
+# Description
+
+# Usage
