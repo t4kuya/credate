@@ -1,5 +1,5 @@
 # credate
-credate is a improved version of wc
+credate is a improved version of wc.
 
 # Table of Contents
 - [Description](#Description)
