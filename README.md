@@ -24,7 +24,7 @@ The credate stands for "creation date". It is a improve version of wc command. I
 <br>
 "Prints the number of words in each input file."
 <br><br>
--cr
+-d
 <br>
 "Prints the creation date of file."
 
