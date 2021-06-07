@@ -1,7 +1,7 @@
 package main
 
 func Example_help() {
-	goMain([]string{"/some/path/of/ccat", "-h"})
+	goMain([]string{"/some/path/of/credate", "-h"})
 	// Output:
 	// ccat [OPTIONS]  [FILEs...]
 	// OPTIONS
