@@ -10,6 +10,7 @@ credate is a improved version of wc.
 # Description
 The credate stands for "creation date". It is a improve version of wc command. It allows you to confirm the number of lines, words, bytes, characters, and creation date of one or multiple text files.
 # Usage
+```
 credate [OPTION] [FILEs...]
 
 -b
@@ -31,6 +32,8 @@ credate [OPTION] [FILEs...]
 -d
 <br>
 "Prints the creation date of file."
+
+```
 
 # Icon
 ![km206143521605125200317](https://user-images.githubusercontent.com/84721993/119422504-392efc00-bd3c-11eb-8752-0f3b7403f648.png)
