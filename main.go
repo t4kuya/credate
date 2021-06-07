@@ -20,6 +20,10 @@ OPTIONS
                                    the corresponding VECTORS.
                                    Available values are: file, string, and json.
     -h, --help                     prints this message.
+    
+VECTORS
+    the source of vectors for calculation.`, name)
+}
 
 func goMain(args []string) int {
 	fmt.Println(helpMessage(args[0]))
