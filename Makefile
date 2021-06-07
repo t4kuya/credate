@@ -5,8 +5,11 @@ DIST := $(NAME)-$(VERSION)
 
 all: test build
 
-setup: update_version
+setup:
+	git submodule update --init
 
+test: setup
+	$(GO) test -covermode=count -coverprofile=coverage.out $$(go list ./...)
 
 define __create_dist()
 	mkdir -p dist/$(1)_$(2)/$(DIST)
