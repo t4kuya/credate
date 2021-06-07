@@ -4,53 +4,31 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"time"
 )
 
 func helpMessage(originalProgramName string) string {
-	programName := filepath.Base(originalProgramName)
-	return fmt.Sprintf(`%s [OPTIONS] <NUMBER> [-- <COMMANDS...>]
-%s means 'notify me, later!'
+	name := filepath.Base(originalProgramName)
+	return fmt.Sprintf(`%s [OPTIONS] <VECTORS...>
 OPTIONS
-    -b, --background      runs nml on background.  Same as 'nml ... &'.
-    -H, --with-header     shows the header on notification.
-    -u, --unit <UNIT>     specifies the time unit. Default is min.
-                          Available units are: nsec, msec, sec, min, and hour.
-    -h, --help            prints this message.
-NUMBER
-    specifies the number for timer by the integer value.
-COMMANDS
-    specifies the commands execute after timer.
-    If no commands are specified, nml notifies by printing message
-    "MESSAGE FROM NML ARRIVE!! (<NUMBER> <UNIT> left)" to STDOUT.`, programName, programName)
-}
-
-func handle(opts *options) int {
-	return opts.command.Execute()
-}
-
-func perform(opts *options) int {
-	select {
-	case <-time.After(opts.time.Duration()):
-		return handle(opts)
-	}
+    -a, --algorithm <ALGORITHM>    specifies the calculating algorithm.  This option is mandatory.
+                                   The value of this option accepts several values separated with comma.
+                                   Available values are: simpson, jaccard, dice, and cosine.
+    -f, --format <FORMAT>          specifies the resultant format. Default is default.
+                                   Available values are: default, json, and xml.
+    -t, --input-type <TYPE>        specifies the type of VECTORS. Default is file.
+                                   If TYPE is separated with comma, each type shows
+                                   the corresponding VECTORS.
+                                   Available values are: file, string, and json.
+    -h, --help                     prints this message.
+VECTORS
+    the source of vectors for calculation.`, name)
 }
 
 func goMain(args []string) int {
-	opts, err := parseArgs(args)
-	if err != nil {
-		fmt.Printf("parsing args fail: %s\n", err.Error())
-		fmt.Println(helpMessage(filepath.Base(args[0])))
-		return 1
-	}
-	if opts.help {
-		fmt.Println(helpMessage(filepath.Base(args[0])))
-		return 0
-	}
-	return perform(opts)
+	fmt.Println(helpMessage(args[0]))
+	return 0
 }
 
 func main() {
 	status := goMain(os.Args)
 	os.Exit(status)
-}
