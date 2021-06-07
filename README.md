@@ -1,3 +1,4 @@
+[![build](https://github.com/t4kuya/credate/actions/workflows/build.yml/badge.svg)](https://github.com/t4kuya/credate/actions/workflows/build.yml)
 [![Coverage Status](https://coveralls.io/repos/github/t4kuya/credate/badge.svg?branch=main)](https://coveralls.io/github/t4kuya/credate?branch=main)
 # credate
 credate is a improved version of wc.
