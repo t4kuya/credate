@@ -1,9 +1,9 @@
 package main
 
 func Example_help() {
-	goMain([]string{"/some/path/of/scv", "-h"})
+	goMain([]string{"/some/path/of/credate", "-h"})
 	// Output:
-	// scv [OPTIONS] <VECTORS...>
+	// credate [OPTIONS] <VECTORS...>
 	// OPTIONS
 	//     -a, --algorithm <ALGORITHM>    specifies the calculating algorithm.  This option is mandatory.
 	//                                    The value of this option accepts several values separated with comma.
