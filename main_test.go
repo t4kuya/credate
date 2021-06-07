@@ -1,10 +1,11 @@
 package main
 
-import "testing"
-
-func Test_main(t *testing.T) {
-	status := goMain([]string{"credate", "-h"})
-	if status != 0 {
-		t.Errorf("status code wont 0, but got %d", status)
-	}
+func Example_help() {
+	goMain([]string{"/some/path/of/ccat", "-h"})
+	// Output:
+	// ccat [OPTIONS]  [FILEs...]
+	// OPTIONS
+	// 	-h, --help              このメッセージを出力します．
+	// ARGUMENTS
+	// 	FILEs...                中身の確認または結合を行うファイル．
 }
