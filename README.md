@@ -1,4 +1,4 @@
-[![CI](https://github.com/t4kuya/credate/actions/workflows/blank.yml/badge.svg)](https://github.com/t4kuya/credate/actions/workflows/blank.yml)
+
 
 # credate
 credate is a improved version of wc.
