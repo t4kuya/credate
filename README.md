@@ -1,5 +1,5 @@
 [![build](https://github.com/t4kuya/credate/actions/workflows/build.yml/badge.svg)](https://github.com/t4kuya/credate/actions/workflows/build.yml)
-[![Coverage Status](https://coveralls.io/repos/github/t4kuya/credate/badge.svg?branch=main)](https://coveralls.io/github/t4kuya/credate?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/t4kuya/credate/badge.svg)](https://coveralls.io/github/t4kuya/credate)
 [![codebeat badge](https://codebeat.co/badges/17166784-c833-4edf-89e9-4a43d306ad8d)](https://codebeat.co/projects/github-com-t4kuya-credate-main)
 [![Go Report Card](https://goreportcard.com/badge/github.com/t4kuya/credate)](https://goreportcard.com/report/github.com/t4kuya/credate)
 # credate
