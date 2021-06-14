@@ -8,7 +8,7 @@ import (
 
 func helpMessage(originalProgramName string) string {
 	name := filepath.Base(originalProgramName)
-	return fmt.Sprintf(`%s [OPTIONS] <VECTORS...>
+	return fmt.Sprintf(`%s [OPTIONS] 
     CLI_MODE_OPTIONS
     
         -b, --byte        Prints the number of bytes in each input file.
