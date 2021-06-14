@@ -9,7 +9,7 @@ import (
 func helpMessage(originalProgramName string) string {
 	name := filepath.Base(originalProgramName)
 	return fmt.Sprintf(`%s [OPTIONS] [FILEs...]
-	OPTIONS
+OPTIONS
     -b, --byte        Prints the number of bytes in each input file.
 
     -c, --character   Prints the number of characters in each input file.
