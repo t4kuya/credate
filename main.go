@@ -16,7 +16,7 @@ OPTIONS
 
     -l, --line        Prints the number of lines in each input file.
 
-    -w, word          Prints the number of words in each input file.
+    -w, --word          Prints the number of words in each input file.
 
     -d, --date        Prints the creation date of file.
 
