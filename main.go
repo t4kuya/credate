@@ -19,6 +19,8 @@ OPTIONS
      -w, word          Prints the number of words in each input file.
 
      -d, --date        Prints the creation date of file.
+
+     -h, --help        Prints this message.
 `, name)
 }
 
