@@ -1,3 +1,4 @@
+#test
 GO := go
 NAME := credate
 VERSION := 1.0.0
