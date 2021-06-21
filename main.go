@@ -100,7 +100,7 @@ func printer(o *options, c cal, filename string) {
 		fmt.Println(err)
 		return
 	}
-
+	fmt.Println(filename)
 	if o.line {
 		fmt.Printf("line: %d   ", c.lines)
 	}
@@ -113,8 +113,7 @@ func printer(o *options, c cal, filename string) {
 	if o.word {
 		fmt.Printf("word: %d   ", c.words)
 	}
-	fmt.Print(mtime)
-	fmt.Println(filename)
+	fmt.Println("ModifyTime: ", mtime)
 
 }
 
