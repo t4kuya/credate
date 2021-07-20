@@ -6,9 +6,9 @@ disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
-    author = "Calin Tataru"
-    description = "Personal blog theme powered by Hugo"
-    githubUsername = "#"
+    author = "Takuya Yamanaka"
+    description = "Improved version of wc"
+    githubUsername = "t4kuya"
     accent = "red"
     showBorder = true
     backgroundColor = "white"
@@ -47,21 +47,7 @@ googleAnalytics = ""
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
+    url = "https://github.com/t4kuya"
     name = "fab fa-github"
     weight = 2
 
-[[menu.icon]]
-    url = "https://twitter.com/username/"
-    name = "fab fa-twitter"
-    weight = 3
-
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
-    name = "fab fa-linkedin"
-    weight = 4
-
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "fab fa-stack-overflow"
-    weight = 5
