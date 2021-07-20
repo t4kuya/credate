@@ -1,4 +1,4 @@
-baseURL = "http://example.com/"
+baseURL = "https://t4kuya.github.io/credate"
 languageCode = "en-us"
 title = "Minimal"
 theme = "minimal"
