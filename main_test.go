@@ -13,9 +13,9 @@ func Example_help() {
 	//     -h, --help        Prints this message.
 }
 
-func Example_edkd() {
+func Example_credate() {
 	goMain([]string{"credate", "./testdata/twincle_twincle_little_star.txt"})
 	// Output:
-	// testdata/twincle_twincle_little_star.txt
-	//line: 5   byte: 170   char: 170   word: 32   ModifyTime: 2021-07-22 16:02:47.264973348 +0900 JST
+	// ./testdata/twincle_twincle_little_star.txt
+	// line: 5   byte: 170   char: 170   word: 32   ModifyTime: 2021-07-25 18:03:13.766635344 +0000 UTC
 }
