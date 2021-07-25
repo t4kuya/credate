@@ -19,3 +19,17 @@ func Example_credate() {
 	// ./testdata/twincle_twincle_little_star.txt
 	// word: 32
 }
+
+func Example_credate2() {
+	goMain([]string{"credate", "./testdata/twincle_twincle_little_star.txt", "-l"})
+	// Output:
+	// ./testdata/twincle_twincle_little_star.txt
+	// line: 5
+}
+
+func Example_credate3() {
+	goMain([]string{"credate", "./testdata/twincle_twincle_little_star.txt", "-c"})
+	// Output:
+	// ./testdata/twincle_twincle_little_star.txt
+	// char: 170
+}
