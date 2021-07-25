@@ -12,3 +12,10 @@ func Example_help() {
 	//     -d, --date        Prints the creation date of file.
 	//     -h, --help        Prints this message.
 }
+
+func Example_edkd() {
+	goMain([]string{"credate", "./testdata/twincle_twincle_little_star.txt"})
+	// Output:
+	// testdata/twincle_twincle_little_star.txt
+	//line: 5   byte: 170   char: 170   word: 32   ModifyTime: 2021-07-22 16:02:47.264973348 +0900 JST
+}
