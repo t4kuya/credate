@@ -17,5 +17,5 @@ func Example_credate() {
 	goMain([]string{"credate", "./testdata/twincle_twincle_little_star.txt", "-b"})
 	// Output:
 	// ./testdata/twincle_twincle_little_star.txt
-	// byte: 170
+	// byte: 175
 }
