@@ -26,3 +26,10 @@ func Example_credate2() {
 	// ./testdata/twincle_twincle_little_star.txt
 	// line: 5
 }
+
+func Example_credate３() {
+	goMain([]string{"credate", "./testdata/my_grandfather\'s_clock.txt", "-l"})
+	// Output:
+	// ./testdata/my_grandfather\'s_clock.txt
+	// line: 39
+}
