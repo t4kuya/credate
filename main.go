@@ -113,7 +113,9 @@ func printer(o *options, c cal, filename string) {
 	if o.word {
 		fmt.Printf("word: %d   ", c.words)
 	}
-	fmt.Println("ModifyTime: ", mtime)
+	if o.line && o.bytet && o.character && o.word {
+		fmt.Println("ModifyTime:", mtime)
+	}
 
 }
 
