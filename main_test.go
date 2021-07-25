@@ -28,8 +28,8 @@ func Example_credate2() {
 }
 
 func Example_credate3() {
-	goMain([]string{"credate", "./testdata/twincle_twincle_little_star.txt", "-c"})
+	goMain([]string{"credate", "./testdata/twincle_twincle_little_star.txt", "-w", "-l"})
 	// Output:
 	// ./testdata/twincle_twincle_little_star.txt
-	// char: 170
+	// line: 5   word: 32
 }
