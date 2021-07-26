@@ -38,7 +38,7 @@ func helpMessage(originalProgramName string) string {
     -w, --word        Prints the number of words in each input file.
     -h, --help        Prints this message.
 	
-	ModifyTime in the text file is displayed when no command option is given.
+    ModifyTime in the text file is displayed when no command option is given.
     Or, it will be displayed with all options except help.`, name)
 }
 
