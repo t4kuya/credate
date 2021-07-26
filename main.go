@@ -36,8 +36,10 @@ func helpMessage(originalProgramName string) string {
     -c, --character   Prints the number of characters in each input file.
     -l, --line        Prints the number of lines in each input file.
     -w, --word        Prints the number of words in each input file.
-    -d, --date        Prints the creation date of file.
-    -h, --help        Prints this message.`, name)
+    -h, --help        Prints this message.
+	
+	ModifyTime in the text file is displayed when no command option is given.
+    Or, it will be displayed with all options except help.`, name)
 }
 
 func calculate(o *options, filenames []string) {
