@@ -134,8 +134,24 @@
    -c, --character   Prints the number of characters in each input file.
    -l, --line        Prints the number of lines in each input file.
    -w, --word        Prints the number of words in each input file.
-   -d, --date        Prints the creation date of file.
    -h, --help        Prints this message.
+
+   ModifyTime in the text file is displayed when no command option is given.
+   Or, it will be displayed with all options except help.
+</code></pre><h1 id="example-output">Example Output</h1>
+<pre><code>$ credate testdata/twincle_twincle_little_star.txt
+testdata/twincle_twincle_little_star.txt
+line: 5   byte: 170   char: 170   word: 32   ModifyTime: 2021-07-22 16:02:47.264973348 +0900 JST
+
+$ credate -l -b testdata/twincle_twincle_little_star.txt
+testdata/twincle_twincle_little_star.txt
+line: 5   byte: 170 
+
+$ credate testdata/my_grandfather\'s_clock.txt testdata/twincle_twincle_little_star.txt
+testdata/my_grandfather's_clock.txt
+line: 39   byte: 1486   char: 1486   word: 296   ModifyTime: 2021-07-22 16:02:47.264795199 +0900 JST
+testdata/twincle_twincle_little_star.txt
+line: 5   byte: 170   char: 170   word: 32   ModifyTime: 2021-07-22 16:02:47.264973348 +0900 JST
 </code></pre></div>
 
 </main>

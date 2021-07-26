@@ -13,7 +13,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://t4kuya.github.io/credate/about/</guid>
-      <description>Icon https://www.iconpon.com/</description>
+      <description>Badge      
+Icon https://www.iconpon.com/</description>
     </item>
     
     <item>
@@ -22,7 +23,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://t4kuya.github.io/credate/installation/</guid>
-      <description>🍺Homebrew brew tap t4kuya/credate brew install credate </description>
+      <description>🍺Homebrew $ brew tap t4kuya/credate $ brew install credate Compiling Yourself $ git clone https://github.com/t4kuya/credate.git $ cd credate $ make </description>
     </item>
     
     <item>
@@ -31,7 +32,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://t4kuya.github.io/credate/usage/</guid>
-      <description>Usage credate [OPTION] [FILEs...] OPTIONS -b, --byte Prints the number of bytes in each input file. -c, --character Prints the number of characters in each input file. -l, --line Prints the number of lines in each input file. -w, --word Prints the number of words in each input file. -d, --date Prints the creation date of file. -h, --help Prints this message. </description>
+      <description>Usage credate [OPTION] [FILEs...] OPTIONS -b, --byte Prints the number of bytes in each input file. -c, --character Prints the number of characters in each input file. -l, --line Prints the number of lines in each input file. -w, --word Prints the number of words in each input file. -h, --help Prints this message. ModifyTime in the text file is displayed when no command option is given. Or, it will be displayed with all options except help.</description>
     </item>
     
   </channel>
