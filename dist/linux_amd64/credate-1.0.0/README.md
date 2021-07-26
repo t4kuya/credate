@@ -10,9 +10,13 @@ credate is a improved version of wc.
 # Table of Contents
 - [Description](#Description)
 - [Usage](#Usage)
+- [Icon](#Icon)
 
 # Description
-The credate stands for "creation date". It is a improve version of wc command. It allows you to confirm the number of lines, words, bytes, characters, and creation date of one or multiple text files.
+The traditional "word count" command counts the number of bytes, lines, words, and characters in a text file.
+In addition to the "word count" command, "credate" tells you the modification date of the text file.
+
+The original plan was to display ModifyTime with the option "-d", but it is now displayed only when no options are specified or when all options except "-h" and "--help" are specified.
 # Usage
 ```
 credate [OPTION] [FILEs...]
@@ -21,8 +25,10 @@ credate [OPTION] [FILEs...]
    -c, --character   Prints the number of characters in each input file.
    -l, --line        Prints the number of lines in each input file.
    -w, --word        Prints the number of words in each input file.
-   -d, --date        Prints the creation date of file.
    -h, --help        Prints this message.
+
+   ModifyTime in the text file is displayed when no command option is given.
+   Or, it will be displayed with all options except help.
 ```
 # Icon
 ![km206143521605125200317](https://user-images.githubusercontent.com/84721993/119422504-392efc00-bd3c-11eb-8752-0f3b7403f648.png)
